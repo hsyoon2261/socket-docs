@@ -10,19 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54a76a20-5b75-4b7d-99e8-92a3d9a06678" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Client/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/scratch.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TCPPractice1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TCPPractice1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TCPPractice1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TCPPractice1.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TCPPractice1/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/Client/.dockerignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TCPPractice1/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TCPPractice1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TCPPractice1/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TCPPractice1/TCPPractice1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Server.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TCPPractice1/static/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TCPPractice1/static/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TCPPractice1/static/untitled map (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Client/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/scratch.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +50,11 @@
       <command value="Client" />
     </option>
   </component>
-  <component name="RunManager" selected=".NET Project.NetworkClass">
-    <configuration name="Client" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+  <component name="RunManager" selected=".NET Project.Client">
+    <configuration name="Client" type="DotNetProject" factoryName=".NET Project" singleton="false">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Client/bin/Debug/net5.0/Client.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Client/bin/Debug/net5.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
@@ -72,7 +64,7 @@
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_TFM" value="net5.0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -136,7 +128,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649057990674</updated>
-      <workItem from="1649058015950" duration="6889000" />
+      <workItem from="1649058015950" duration="10806000" />
     </task>
     <servers />
   </component>
