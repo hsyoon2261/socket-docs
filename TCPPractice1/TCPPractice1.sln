@@ -1,6 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPPractice1", "TCPPractice1\TCPPractice1.csproj", "{62AEAA5C-6DA7-44AD-8E68-D9407A5CE53E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{62AEAA5C-6DA7-44AD-8E68-D9407A5CE53E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{B621D805-6B30-48B8-9FBB-0FB6EC9C0C13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkClass", "NetworkClass\NetworkClass.csproj", "{521D22C8-47FD-4897-80FA-6ECEDCE6CD6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +16,13 @@ Global
 		{62AEAA5C-6DA7-44AD-8E68-D9407A5CE53E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62AEAA5C-6DA7-44AD-8E68-D9407A5CE53E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62AEAA5C-6DA7-44AD-8E68-D9407A5CE53E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B621D805-6B30-48B8-9FBB-0FB6EC9C0C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B621D805-6B30-48B8-9FBB-0FB6EC9C0C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B621D805-6B30-48B8-9FBB-0FB6EC9C0C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B621D805-6B30-48B8-9FBB-0FB6EC9C0C13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{521D22C8-47FD-4897-80FA-6ECEDCE6CD6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{521D22C8-47FD-4897-80FA-6ECEDCE6CD6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{521D22C8-47FD-4897-80FA-6ECEDCE6CD6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{521D22C8-47FD-4897-80FA-6ECEDCE6CD6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

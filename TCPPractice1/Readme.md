@@ -28,3 +28,19 @@
 | ToString()  |          현재 객체를 String 객체로 변환           |
 
 -----
+
+## 개요
+
+- 정보 클래스(클래스 지만 구조체 수준)
+  - IPAddress : ip 주소 <-> long 형 변환
+  - Dns : ip + domain
+  - IPHostEntry : ip + hostname
+  - IPEndPoint : ip + port
+- 연결 클래스
+  - TcpListener
+  - TcpClient
+  - UdpClient
+- 전송 클래스
+  - NetworkStream
+  - StreamWriter/StreamReader
+  - BinaryWriter/BinaryReader
