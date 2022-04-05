@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net.Sockets;
 using System.Runtime.Serialization;
 
 namespace TcpCli
@@ -14,6 +15,7 @@ namespace TcpCli
     {
         private ChatMode mode = ChatMode.Lobby;
         private ConfigClient configClient = null;
+        private string cliname = "";
 
         public void Process()
         {
@@ -35,8 +37,8 @@ namespace TcpCli
             input = Console.ReadLine();
             if (input == "")
                 input = "이름없음";
-            configClient = new ConfigClient();
-            configClient.SetInfo("127.0.0.1",9000,input);
+            cliname = input;
+
             mode = ChatMode.Connection;
         }
 
@@ -48,11 +50,21 @@ namespace TcpCli
             switch (input)
             {
                 case "1":
-                    Console.WriteLine("곧 만들예정");
+                    //Program.health = false;
+                    configClient = new ConfigClient();
+                    configClient.SetInfo("127.0.0.1",9000,input);
+                    Console.WriteLine("연결시도중...");
+                    
                     break;
                 case "2":
                     mode = ChatMode.Lobby;
+                    break;
             }
+        }
+
+        private bool ConnectionTrial(TcpClient client, string ip, int port)
+        {
+            return true;
         }
 
     }

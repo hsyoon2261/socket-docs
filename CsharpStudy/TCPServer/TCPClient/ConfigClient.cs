@@ -1,11 +1,12 @@
-﻿using System.Net.Sockets;
+﻿using System;
+using System.Net.Sockets;
 
 namespace TcpCli
 {
     public class ConfigClient
     {
         //protected TcpClient client = null;
-        protected string serverIP = 0;
+        protected string serverIP = "";
         protected int serverPort = 0;
         protected string userName = "";
 
@@ -14,6 +15,9 @@ namespace TcpCli
             this.serverIP = ip;
             this.serverPort = port;
             this.userName = name;
+            Console.WriteLine(serverPort);
+            Console.WriteLine(serverIP);
+            Console.WriteLine(userName);
         }
     }
 }
