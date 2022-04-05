@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkClass", "NetworkClass\NetworkClass.csproj", "{521D22C8-47FD-4897-80FA-6ECEDCE6CD6E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryData", "BinaryData\BinaryData.csproj", "{B25E6EEE-227E-4FCA-93CE-E6BC02F7912D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{521D22C8-47FD-4897-80FA-6ECEDCE6CD6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{521D22C8-47FD-4897-80FA-6ECEDCE6CD6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{521D22C8-47FD-4897-80FA-6ECEDCE6CD6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B25E6EEE-227E-4FCA-93CE-E6BC02F7912D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B25E6EEE-227E-4FCA-93CE-E6BC02F7912D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B25E6EEE-227E-4FCA-93CE-E6BC02F7912D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B25E6EEE-227E-4FCA-93CE-E6BC02F7912D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

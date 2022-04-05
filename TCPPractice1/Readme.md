@@ -55,4 +55,58 @@
   - NetworkStream
     - public NetworkStream GetStream()
   - StreamWriter/StreamReader
+    - 문자열의 끝에 종결자를 붙여서 보내준다.
+    - StreamWriter 생성자
+    - 다양한 오버로드 메서드 제공
+      - bool, char, double, int, long float, string 등등..
+      - MSDN 을 참고하자.
+      - virtual 한번만 다시보자 : https://docs.microsoft.com/ko-kr/dotnet/csharp/language-reference/keywords/virtual
+      - public virtual void WriteLine(int value)
+    - StreamWriter.Close() 로 해제
+      - 자동으로 해제 : using 구문을 활용하자
+      - using(StreamWriter sw = new StreamWriter(ns)) {...}
+    - StreamReader
+      - 문자열을 종결자 단위로 읽어낸다 
+      - ns에선 일일히 자르던가(직렬화?) , parse
+      - public override string ReadLine()
+      - 일단은 string, 다른 형식으로 변환
+      - return값이 null이면 읽을 것이 없음
+      - 이거 덕분에 c/c++에선 구조체로 보내야하는데 이런 불편함을 해소? 공부해야할 부분
+      - StreamWriter.AutoFlush : WriteLine 잔여 buffer를 자동적으로 비워주는 method
+      - int.parse(str)
   - BinaryWriter/BinaryReader
+    - 임의의 데이터형 해석
+    - BinaryWriter.Write()
+    - one to one 대응으로 float-BinaryReader.ReadSingle()
+    - int-BinaryReader.ReadInt32() 등
+    - StreamWriter/Reader와의 차이
+      - StreamWriter는 데이터를 임시로 자신의 _charBuffer에 저장해두었다가, 
+      - Flush() 될 때 BaseStream으로 옮겨담았지만, 
+      - BinaryWriter는 Flush()하지 않아도 곧바로 BaseStream에 저장한다.
+      - 버퍼 저장 방식의 차이
+      - BinaryWriter는 버퍼의 헤더(Prefix)에 길이를 붙인다는 점을 유의해야한다. 
+      - 스트림 쓰기를 BinaryWriter로 했다가 
+      - 스트림 읽기를 StreamReader로 하면 데이터가 어긋날 수 있다.
+-----
+https://cho-coding.tistory.com/127
+직렬화 (serialize)
+
+- StreamWriter / StreamReader와 BinaryWriter / BinaryReader -> 기본 데이터형만 저장 및 읽기 가능 (float int string 등)
+
+- 구조체, 클래스 저장 및 읽기 -> FileStream, BinaryFormatter
+
+- BinaryFormatter 네임스페이스 -> using System.Runtime.Serialization.Formatters.Binary;
+
+-----
+## 데이터 변환 클래스와 메서드
+
+```cs
+// System.Text.Encoding 클래스 사용
+GetBytes(char[] chars)
+GetChars(byte[] bytes)
+GetString
+```
+
+
+
+

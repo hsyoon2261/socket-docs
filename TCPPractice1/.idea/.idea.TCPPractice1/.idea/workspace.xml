@@ -4,17 +4,17 @@
     <projectFile>TCPPractice1/TCPPractice1.csproj</projectFile>
     <projectFile>Client/Client.csproj</projectFile>
     <projectFile>NetworkClass/NetworkClass.csproj</projectFile>
+    <projectFile>BinaryData/BinaryData.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54a76a20-5b75-4b7d-99e8-92a3d9a06678" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TCPPractice1/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TCPPractice1/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TCPPractice1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TCPPractice1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Client/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/scratch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCPPractice1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TCPPractice1.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +22,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/cd893fa23130922b8120cb25d8c32ef61e5c0b9ab59ffaf34433dd91ffd6ae4/IPHostEntry.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/cd893fa23130922b8120cb25d8c32ef61e5c0b9ab59ffaf34433dd91ffd6ae4/IPHostEntry.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Server/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -51,6 +51,24 @@
     </option>
   </component>
   <component name="RunManager" selected=".NET Project.Client">
+    <configuration name="BinaryData" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/BinaryData/BinaryData.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Client" type="DotNetProject" factoryName=".NET Project" singleton="false">
       <option name="EXE_PATH" value="$PROJECT_DIR$/Client/bin/Debug/net5.0/Client.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -118,6 +136,7 @@
       <item itemvalue=".NET Project.Client" />
       <item itemvalue=".NET Project.Server" />
       <item itemvalue=".NET Project.NetworkClass" />
+      <item itemvalue=".NET Project.BinaryData" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -128,7 +147,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649057990674</updated>
-      <workItem from="1649058015950" duration="10806000" />
+      <workItem from="1649058015950" duration="13245000" />
+      <workItem from="1649127819913" duration="2636000" />
+      <workItem from="1649145429170" duration="803000" />
     </task>
     <servers />
   </component>
@@ -136,7 +157,7 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -151,5 +172,37 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BinaryData/Program.cs</url>
+          <line>24</line>
+          <properties documentPath="E:\githubdocs\socket-docs\TCPPractice1\BinaryData\Program.cs" initialLine="23" containingFunctionPresentation="method 'Main'">
+            <startOffsets>
+              <option value="648" />
+            </startOffsets>
+            <endOffsets>
+              <option value="688" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BinaryData/Program.cs</url>
+          <line>16</line>
+          <properties documentPath="E:\githubdocs\socket-docs\TCPPractice1\BinaryData\Program.cs" initialLine="16" containingFunctionPresentation="method 'Main'">
+            <startOffsets>
+              <option value="387" />
+            </startOffsets>
+            <endOffsets>
+              <option value="404" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
