@@ -10,7 +10,7 @@ namespace SimpleChatClient
         static void Main(string[] args)
         {
             Socket clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            clientSocket.Connect(new IPEndPoint(IPAddress.Parse("127.0.0.1"), 88));
+            clientSocket.Connect(new IPEndPoint(IPAddress.Parse("124.53.127.89"), 7755));
             
             //reading
             byte[] data = new byte[1024];

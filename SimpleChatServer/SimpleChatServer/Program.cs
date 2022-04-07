@@ -10,7 +10,7 @@ namespace SimpleChatServer
         static Socket serverSocket, clientSocket;
         static IPEndPoint ipEndPoint;
         static IPAddress ipAddress;
-        static int PORT = 88;
+        static int PORT = 7755;
         static byte[] dataBuffer = new byte[1024];
         static void Main(string[] args)
         {
@@ -20,7 +20,7 @@ namespace SimpleChatServer
         private static void ASyncServer()
         {
             serverSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            ipAddress = IPAddress.Parse("127.0.0.1");
+            ipAddress = IPAddress.Parse("124.53.127.89");
             ipEndPoint = new IPEndPoint(ipAddress, PORT);
             serverSocket.Bind(ipEndPoint);
             serverSocket.Listen(0);

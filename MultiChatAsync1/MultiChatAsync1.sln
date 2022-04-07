@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiChatAsync1", "MultiChatAsync1\MultiChatAsync1.csproj", "{D6DD38EF-940A-45A1-A22D-1327D265218D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{095EDE82-1D06-4889-A6B4-9F13CCEF4752}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{BDE3A997-EE36-4F52-B3CF-500E16FC3164}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6DD38EF-940A-45A1-A22D-1327D265218D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6DD38EF-940A-45A1-A22D-1327D265218D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6DD38EF-940A-45A1-A22D-1327D265218D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6DD38EF-940A-45A1-A22D-1327D265218D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{095EDE82-1D06-4889-A6B4-9F13CCEF4752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{095EDE82-1D06-4889-A6B4-9F13CCEF4752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{095EDE82-1D06-4889-A6B4-9F13CCEF4752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{095EDE82-1D06-4889-A6B4-9F13CCEF4752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDE3A997-EE36-4F52-B3CF-500E16FC3164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDE3A997-EE36-4F52-B3CF-500E16FC3164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDE3A997-EE36-4F52-B3CF-500E16FC3164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDE3A997-EE36-4F52-B3CF-500E16FC3164}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
